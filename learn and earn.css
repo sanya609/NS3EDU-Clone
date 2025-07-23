@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.top-bar {
+  background-color: #013220;
+  color: white;
+  padding: 8px 16px;
+  display: flex;
+  
+  font-size: 14px;
+}
+
+.navbar {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px #013220;   
+  flex-wrap: wrap;
+}
+
+.logo {
+ width: 200px;
+ height: 66px;
+margin-left: -50px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.green-link {
+  color: green;
+  font-weight: bold;
+}
+
+.contact-btn {
+  background-color: black;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.scrolling-text {
+  background: black;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  
+}
+
+.hero-section {
+  position: relative;
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiXpniAMsV8r4Q1dRK5_BU3iC4dQrUEkCS7KA3XkmfPOaTMVovu8TZwI2pS9fK6NVI_HM&usqp=CAU') no-repeat center center/cover;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-section .overlay {
+  color: rgba(247, 244, 244, 0.966);
+  text-align: left;
+  background: rgba(24, 24, 24, 0.4);
+  padding: 130px;
+  width: 100%;
+}
+
+.hero-section h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.hero-section p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.content {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.subtext {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.course-section {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.course-card {
+  position: relative;
+  width: 350px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.course-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.syllabus-btn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #0a8754;
+  color: white;
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+}
